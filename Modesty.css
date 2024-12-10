@@ -1,16 +1,15 @@
-.nav-link{
+#landingPage{
+    width: 100%;
+    height: 550px;
+    background-color: #707ecc;
+}
+
+.nav-item:hover{
     color: #fff;
     font-size: 20px;
 }
-
-.container-fluid{
-    height: 300px;
-    width: 100%;
-    background-color: rgba(53, 33, 231, 0.61);
-} 
-
-#landingPage{
-    height: 300px;
-    width: 100%;
-    background-color: rgba(53, 33, 231, 0.61);
+.navbar img{
+    width: 120px;
+    height: 80px;
+    margin-top: 0px;
 }
