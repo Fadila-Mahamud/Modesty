@@ -1,6 +1,6 @@
 #landingPage{
     width: 100%;
-    height: 550px;
+    height: 600px;
     background-color: #707ecc;
 }
 
@@ -24,6 +24,10 @@
     margin-top: 0px;
 }
 
+.search{
+    background-color: #fff;
+}
+
 #carouselExampleFade{
     width: 90%;
     margin: auto;
@@ -32,4 +36,19 @@
 
 .carousel-inner{
     height: 450px;
+}
+
+@media(max-width: 768px){
+   .container-fluid h2{
+        font-size: 25px;
+    }
+
+    .navbar img{
+        height: 50px;
+        width: 70px;
+    }
+
+    .carousel-inner{
+        justify-content: center;
+    }
 }
