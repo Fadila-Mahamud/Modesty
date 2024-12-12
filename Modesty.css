@@ -41,8 +41,11 @@
 }
 
 .ankara{
-    height: 30px;
-    width: 200px;
+    height: 240px;
+    width: 220px;
+    padding: 10px;
+    margin-left: 20px;
+   
 }
 
 .col .card{
@@ -51,6 +54,15 @@
     width: 90%;
     /* border-color: #707ecc; */
     border: 5px solid #707ecc;
+}
+
+.card-title{
+    margin-top: -22px;
+}
+
+.card-text{
+    margin-top: -10px;
+    color: red;
 }
 
 @media(max-width: 768px){
@@ -71,3 +83,6 @@
         height: 400px;
     }
 }
+
+
+
