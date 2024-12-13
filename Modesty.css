@@ -45,34 +45,42 @@
     height: 240px;
     width: 220px;
     padding: 10px;
-    margin-left: 10px;
+    margin-left: -8px;
+}
+
+.lace{
+    height: 220px;
+    width: 200px;
+    padding: 10px;
+    margin-left: 8px;
 }
 
 .col .card{
     background-color: #fff;
     margin-top: 50px;
-    width: 90%;
+    width: 100%;
     border: 5px solid #707ecc;
+
 }
 
 .card-title{
-    margin-top: -22px;
+    margin-top: 20px;
 }
 
 .card-text{
-    margin-top: -10px;
+    margin-top: 5px;
     color: red;
 }
 
 
 @media(max-width: 768px){
    .container-fluid h2{
-        font-size: 25px;
+        font-size: 17px;
     }
 
     .navbar img{
-        height: 50px;
-        width: 70px;
+        height: 40px;
+        width: 60px;
     }
 
     #landingPage{
@@ -86,14 +94,16 @@
     .card .ankara{
         margin-left: 20px;
         height: 200px;
-        width: 220px;
-        align-content: center;
-        justify-content: center;
+        width: 220px;  
     }
 
-    .card-grid{
-        grid-template-columns: repeat(2, 1fr);
+    .col .card{
+        width: 30px;
+        height: 180px;
     }
+
+    
+    
 }
 
 
