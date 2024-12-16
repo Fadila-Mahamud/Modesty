@@ -1,0 +1,20 @@
+.loginForm{
+    width: 40%;
+    height: 250px;
+    width: 40%;
+    height: 250px;
+    background-color: #707ecc;
+    margin-top: 170px;
+   
+}
+
+.loginBox{
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
