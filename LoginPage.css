@@ -5,7 +5,6 @@
     height: 250px;
     background-color: #707ecc;
     margin-top: 170px;
-   
 }
 
 .loginBox{
@@ -17,4 +16,21 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+form{
+    background-color: #707ecc;
+    border-radius: 20px;
+   
+}
+
+.button{
+    color: #000;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.button:hover{
+    color: #fff;
+    font-size: 20px;
 }
