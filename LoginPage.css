@@ -16,11 +16,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 
 form{
     background-color: #707ecc;
-    border-radius: 20px;
+    
    
 }
 

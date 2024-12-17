@@ -27,7 +27,6 @@
 
 .search{
     background-color: #fff;
-    text-decoration: none;
 }
 
 #carouselExampleFade{
@@ -47,6 +46,16 @@
     width: 220px;
     padding: 10px;
     margin-left: -8px;
+}
+
+.hermesbag{
+    height: 250px;
+    width: 85%;
+    padding-left: 25px;
+}
+
+.ankarabag{
+    padding-bottom: -300px;
 }
 
 .lace{
@@ -73,6 +82,33 @@
     color: red;
 }
 
+.information{
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+}
+
+.information img{
+    height: 500px;
+    width: 100%;
+}
+
+.information h2{
+    margin-top: -250px;
+    color: #000;
+   font-weight: 200;
+}
+
+.information h3{
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+}
+
+h3 em{
+    font-size: 50px;
+    color: red;
+}
 
 @media(max-width: 768px){
    .container-fluid h2{
