@@ -96,7 +96,7 @@
 .information h2{
     margin-top: -250px;
     color: #000;
-   font-weight: 200;
+    font-weight: 200;
 }
 
 .information h3{
@@ -105,9 +105,33 @@
     color: #000;
 }
 
+.information .celebrate{
+    height: 60px;
+    width: 10%;
+}
+
+.information .celebration{
+    height: 60px;
+    width: 10%;
+    margin-top: -500px;
+    margin-left: 600px;
+}
+
 h3 em{
     font-size: 50px;
     color: red;
+}
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(219, 207, 140); 
+    margin-top: 50px;
+}
+
+.social{
+    height: 20px;
+    width: 2%;
 }
 
 @media(max-width: 768px){

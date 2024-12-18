@@ -1,15 +1,36 @@
 .loginForm{
-    width: 40%;
-    height: 250px;
-    width: 40%;
-    height: 250px;
+    width: 60%;
+    height: 400px;
     background-color: #707ecc;
-    margin-top: 170px;
+    margin-top: 100px;
+    border: 5px solid rgb(219, 207, 140);
+    border-radius: 20px;
 }
 
-.loginBox{
+.loginForm h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: 300;
+    margin-top: 45px;
+}
+
+.loginForm fieldset{
     justify-content: center;
-    align-items: center;
+    align-items: center;   
+    width: 30%;
+    margin: auto;
+}
+
+.loginForm .loginMail{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+.loginForm .loginPassword{
+    margin-bottom: 20px;
 }
 
 body{
@@ -21,7 +42,7 @@ body{
 
 form{
     background-color: #707ecc;
-    
+    border-radius: 30px;
    
 }
 
