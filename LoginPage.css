@@ -20,12 +20,17 @@
     justify-content: center;
     align-items: center;   
     width: 30%;
-    margin: auto;
+    margin-left: 200px;
+}
+
+input{
+    width: 400px;
+    box-shadow: #fff;   
 }
 
 .loginForm .loginMail{
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 20px;
     
 }
 
@@ -46,13 +51,146 @@ form{
    
 }
 
-.button{
+.loginForm button{
     color: #000;
     text-decoration: none;
     padding-left: 10px;
+    color: #fff;
 }
 
-.button:hover{
+.forgot{
+    text-decoration: none;
+    margin-left: 340px;
+    color: white;
+}
+
+p{
+    margin-left: 320px;
+    color: #000;
+    padding-top: 10px;
+}
+
+.signup{
+    margin-left: 360px;
+    color: #000;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.login{
+    margin-top: 20px;
+    justify-content: center;
+    width: 80px;
+    background-color: rgb(236, 68, 68);
+    margin-left: 150px;
+    border-radius: 5px;
+    border: 2px solid rgb(219, 207, 140);
+    margin-bottom: 10px;   
+    display: flex; 
+}
+
+.login:hover{
     color: #fff;
-    font-size: 20px;
+    font-size: 17px;
+}
+
+.signup:hover{
+    color: #fff;
+    font-size: 17px;
+}
+
+.forgot:hover{
+    color: #fff;
+    font-size: 17px;
+}
+
+@media(max-width: 768px){
+    .loginForm fieldset{
+        justify-content: center;
+        align-items: center;   
+        width: 20px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    
+    .login h3{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    form{
+        height: 70px;
+        overflow: visible;
+        width: 40%;
+    }
+
+    input{
+        width: 200px;
+        box-shadow: #fff;   
+    }
+
+    .loginForm{
+        width: 300px;
+       margin-left: 50px;
+      
+    }
+
+    .loginForm h3{
+        font-size: 15px;
+    }
+
+    .loginForm .loginMail{
+        margin-left: 40px;
+    }
+
+    .loginForm .loginPassword{
+        margin-left: 40px;
+        margin-top: -70px;
+    }
+
+    .loginForm .login{
+        margin-top: -70px;
+        margin-left: 85px;
+    }
+
+    .forgot{
+        margin-left: 20px; 
+        padding-top: -20%;
+        color: #000;
+      
+    }
+
+    .loginMail ::placeholder{
+        font-size: 12px;
+    }
+
+    .loginPassword ::placeholder{
+        font-size: 12px;
+    }
+
+    .login{
+        font-size: 12px;
+        width: 60px;
+        padding-right: 10px;
+        margin-right: -10px;
+    }
+
+    p{
+        margin-left: 50px;
+        margin-top: -300px;
+        margin-bottom: -10px;
+        color: #000;
+    }
+    
+    .signup{
+        color: #000;
+        margin-left: 50px;
+        margin-top: -300px;
+        margin-bottom: -10px;
+    }
+
+    .forgot:hover{
+        color: #fff;
+        font-size: 14px;
+    }
 }
