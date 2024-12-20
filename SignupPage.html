@@ -9,34 +9,20 @@
     </head>
     <body>
         <!-- Login Form -->
-         <div class="signupForm">
-            <img src="ModestyLogo.jpeg" alt="">
-            <h3>SIGN UP</h3>
-            <div>
+        <div class="container SignupForm">
+           <img src="ModestyLogo.jpeg" alt="">
+            
                 <form>
-                    <fieldset class="signupMail">
-                        <input type="text" id="email" placeholder="Enter email" required>
-                    </fieldset>
-
-                    <fieldset class="MailConfirm">
-                        <input type="text" id="email" placeholder="Confirm email" required>
-                    </fieldset>
+                    <input type="text" id="email" placeholder="Email">
+                    <input type="text" id="confirmEmail" placeholder="Confirm Email">
+                    <input type="password" id="password" name="password" placeholder="Password" >
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                    <button value="submit" placeholder="signup" id="signupButton" class="signup">Sign up</button>
                     
-                    <fieldset class="signupPassword">
-                        <input type="password" id="password" name="password" placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\S+$).{8,}" minlength="8" maxlength="15" required title="Password must be 8-15 characters long, include at least one uppercase letter, one lowercase letter, one number, and one special character, and must not contain spaces.">
-                    </fieldset>
-
-                    <fieldset class="PasswordConfirm">
-                        <input type="password" id="password" name="password" placeholder="Confirm password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\S+$).{8,}" minlength="8" maxlength="15" required title="Password must be 8-15 characters long, include at least one uppercase letter, one lowercase letter, one number, and one special character, and must not contain spaces.">
-                    </fieldset>
-
-                    <fieldset>
-                        <button value="submit" placeholder="Signup" class="signup">Sign up</button>
-                    </fieldset>
                     <p>Already have an account?</p>
                     <a href="LoginPage.html" class="login">Login</a>
+               
                  </form>
-            </div>
          </div>
       
         <!-- Bootstarp Javascript -->
