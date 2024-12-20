@@ -1,32 +1,34 @@
-.loginForm{
-    width: 60% !important;
-    height: 400px;
+.signupForm{
+    width: 60%;
+    height: 500px;
     background-color: #707ecc;
     margin-top: 100px;
     border: 5px solid rgb(219, 207, 140);
     border-radius: 20px;
-    text-align: center;
 }
 
-.loginForm h3{
+img{
+    width: 90px;
+    height: 60px;
+    margin-bottom: -50px;
+    margin-left: 360px;
+   
+}
+
+.signupForm h3{
     text-align: center;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
     font-weight: 300;
-    margin-top: 45px;
+    margin-top: 60px;
 }
 
-.loginForm{
+.signupForm fieldset{
     justify-content: center;
     align-items: center;   
     width: 30%;
     margin-left: 200px;
-}
-
-.loginRequirements{
-    justify-content: center;
-    align-items: center;
 }
 
 input{
@@ -34,13 +36,17 @@ input{
     box-shadow: #fff;   
 }
 
-#email{
+.signupForm .signupMail{
     margin-bottom: 20px;
     margin-top: 20px;
     
 }
 
-#password{
+.signupForm .MailConfirm{
+    margin-bottom: 20px;
+}
+
+.signupForm .signupPassword{
     margin-bottom: 20px;
 }
 
@@ -57,35 +63,38 @@ form{
    
 }
 
-.loginForm button{
+.signupForm button{
     color: #000;
     text-decoration: none;
     padding-left: 10px;
     color: #fff;
-    margin-left: 350px;
 }
 
 .forgot{
     text-decoration: none;
+    margin-left: 340px;
     color: white;
 }
 
 p{
+    margin-left: 320px;
     color: #000;
     padding-top: 10px;
 }
 
-.signup{
+.login{
+    margin-left: 360px;
     color: #000;
     text-decoration: none;
     margin-top: 5px;
 }
 
-.login{
+.signup{
     margin-top: 20px;
     justify-content: center;
     width: 80px;
     background-color: rgb(236, 68, 68);
+    margin-left: 150px;
     border-radius: 5px;
     border: 2px solid rgb(219, 207, 140);
     margin-bottom: 10px;   
@@ -94,20 +103,28 @@ p{
 
 .login:hover{
     color: #fff;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .signup:hover{
     color: #fff;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .forgot:hover{
     color: #fff;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 @media(max-width: 768px){
+    .signupForm fieldset{
+        justify-content: center;
+        align-items: center;   
+        width: 20px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    
     .login h3{
         font-size: 14px;
         text-align: center;
@@ -116,85 +133,76 @@ p{
     form{
         height: 70px;
         overflow: visible;
-        width: 20%;
+        width: 40%;
     }
 
     input{
-        width: 170px;
-        box-shadow: #fff;  
+        width: 200px;
+        box-shadow: #fff;   
     }
 
-    .loginForm{
-        width: 60% !important;
-        height: 350px;
-        background-color: #707ecc;
-        text-align: center;
-    }
-    
-    .loginForm h3{
-        font-size: 13px;
+    .signupForm{
+        width: 300px;
+       margin-left: 50px;
+      
     }
 
-    #email{
-        margin-left: 15px;
+    .signupForm h3{
+        font-size: 15px;
     }
 
-    #password{
-        margin-left: 15px;
+    .signupForm .loginMail{
+        margin-left: 40px;
+    }
+
+    .signupForm .loginPassword{
+        margin-left: 40px;
         margin-top: -70px;
-    } 
-
-    #email ::placeholder{
-        font-size: 10px !important;
     }
 
-    #password ::placeholder{
-        font-size: 10px;
+    .signupForm .login{
+        margin-top: -70px;
+        margin-left: 85px;
     }
 
-    #loginButton{
+    .forgot{
+        margin-left: 20px; 
+        padding-top: -20%;
+        color: #000;
+      
+    }
+
+    .loginMail ::placeholder{
+        font-size: 12px;
+    }
+
+    .loginPassword ::placeholder{
+        font-size: 12px;
+    }
+
+    .login{
         font-size: 12px;
         width: 60px;
-        margin-left: 65px;   
-        margin-top:5px;
+        padding-right: 10px;
+        margin-right: -10px;
     }
 
     p{
+        margin-left: 50px;
         margin-top: -300px;
         margin-bottom: -10px;
         color: #000;
-        font-size: 12px;
-        display: flex;
-        flex-direction: row;
-        margin-left: 40px;
-        white-space: nowrap;
     }
     
     .signup{
         color: #000;
-        margin-top: 0px;
+        margin-left: 50px;
+        margin-top: -300px;
         margin-bottom: -10px;
-        font-size: 12px;
-        margin-left: 80px;
-        white-space: nowrap;
-    }
-
-    .forgot{
-        font-size: 12px;
-        display: flex;
-        flex-direction: row;
-        text-align: center;
-        margin-left: 55px;
-        white-space: nowrap;
     }
 
     .forgot:hover{
         color: #fff;
-        font-size: 12px;
-    }
-
-    .signup:hover{
-        color: #fff;
-        font-size: 12px;
+        font-size: 14px;
     }
 }

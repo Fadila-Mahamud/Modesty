@@ -9,26 +9,19 @@
     </head>
     <body>
         <!-- Login Form -->
-         <div class="loginForm">
+         <div class="container loginForm">
             <h3>LOGIN TO MODESTY HAVEN</h3>
-            <div>
+            
                 <form>
-                    <fieldset class="loginMail">
-                        <input type="text" id="email" placeholder="Enter your email address" required>
-                    </fieldset>
+                    <input type="text" id="email" placeholder="Email">
+                    <input type="password" id="password" name="password" placeholder="Password" >
+                    <button value="submit" placeholder="Login" id="loginButton" class="login">Login</button>
                     
-                    <fieldset class="loginPassword">
-                        <input type="password" id="password" name="password" placeholder="Enter your password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\S+$).{8,}" minlength="8" maxlength="15" required title="Password must be 8-15 characters long, include at least one uppercase letter, one lowercase letter, one number, and one special character, and must not contain spaces.">
-                    </fieldset>
-
-                    <fieldset>
-                        <button value="submit" placeholder="Login" class="login">Login</button>
-                    </fieldset>
                     <a href="#" class="forgot">Forgot Password</a>
                     <p>Don't have an account?</p>
-                    <a href="#" class="signup">Sign up</a>
+                    <a href="SignupPage.html" class="signup">Sign up</a>
+               
                  </form>
-            </div>
          </div>
       
         <!-- Bootstarp Javascript -->
