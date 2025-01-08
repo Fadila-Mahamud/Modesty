@@ -1,9 +1,13 @@
+/* LandingPage Styling Starts */
+body{
+    margin: 0;
+    padding: 0;
+}
 #landingPage{
     width: 100%;
     height: 600px;
     background-color: #707ecc;
 }
-
 .container-fluid h2{
     text-align: center;
     font-size: 40px;
@@ -13,138 +17,367 @@
     padding: 0%;
     margin: 0;
 }
+/* LandingPage Ends */
 
+
+/* Navbar Styling Starts */
 .nav-item:hover{
     color: #fff;
     font-size: 20px;
 }
-
 .navbar img{
     width: 120px;
     height: 80px;
     margin-top: 0px;
 }
-
 .search{
     background-color: #fff;
 }
+/* Navbar Styling Ends */
 
+
+/* Carousel Styling Starts */
 #carouselExampleFade{
     width: 90%;
     margin: auto;
     margin-top: 0px;
 }
-
 .carousel-inner{
     height: 450px;
     border: 5px solid rgb(219, 207, 140);
     border-radius: 10px;
 }
+/* Carousel Styling Ends */
 
-.ankara{
+
+/* African Print Fabrics Styling */
+.ankara2{
     height: 240px;
     width: 220px;
     padding: 10px;
-    margin-left: -8px;
+    margin-left: 8px
 }
-
-.hermesbag{
-    height: 250px;
-    width: 85%;
-    padding-left: 25px;
-}
-
-.ankarabag{
-    padding-bottom: -300px;
-}
-
-.lace{
-    height: 220px;
-    width: 200px;
+.ankara3{
+    height: 240px;
+    width: 220px;
     padding: 10px;
-    margin-left: 8px;
+    margin-left: 5px
 }
+.ankara4{
+    height: 280px;
+    width: 210px;
+    margin-top: 1px;
+    margin-left: 8px
+}
+.ankara6{
+    height: 240px;
+    width: 210px;
+    margin-top: 1px;
+    margin-left: 8px
+}
+.detail1{
+    margin-bottom: 20px;
+    margin-left: 130px;
+    margin-top: 70px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.detail2{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.detail3{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: -8px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.detail4{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.Chigavy-card-title{
+    margin-top: 29px;
+}
+.Dumas-card-title{
+    margin-top: 29px;
+}
+.Hollandais-card-title{
+    margin-top: 35px;
+}
+.GTP-card-title{
+    margin-top: 35px;
+}
+/*  African Print Fabrics Styling Ends */
 
+
+/* Lace Styling Starts */
+.lace1{
+    height: 240px;
+    width: 220px;
+    padding: 10px;
+    margin-left: 5px
+}
+.lace2{
+    height: 240px;
+    width: 220px;
+    padding: 10px;
+    margin-left: 3px
+}
+.lace3{
+    height: 240px;
+    width: 220px;
+    padding: 10px;
+    margin-left: 1px
+}
+.lace4{
+    height: 240px;
+    width: 220px;
+    padding: 10px;
+    margin-left: 5px
+}
+.lacedetail1{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.lacedetail2{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.lacedetail3{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.lacedetail4{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.Voile-card-title{
+    margin-top: 35px;
+}
+.Swiss-card-title{
+    margin-top: 35px;
+}
+.Spaghetti-card-title{
+    margin-top: 35px;
+}
+.Dry-card-title{
+    margin-top: 35px;
+}
+/* Lace Styling Ends */
+
+
+/* Bag Styling Starts */
+.bagdetail1{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.bagdetail2{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.bagdetail3{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.bagdetail4{
+    margin-bottom: -30px;
+    margin-left: 130px;
+    margin-top: 40px;
+    color: #000;
+    text-decoration: none;
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    padding: 3px;
+}
+.hermesbag{
+    height: 240px;
+    width: 190px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.twinbag{
+    height: 240px;
+    width: 220px;
+    padding: 10px;
+    margin-left: 5px
+}
+.africanbag{
+    height: 270px;
+    width: 220px;
+    padding: 10px;
+    margin-left: 0px;
+    
+}
+.leatherbag{
+    height: 240px;
+    width: 220px;
+    padding: 10px;
+    margin-left: 5px
+}
+.Hermes-card-title{
+    margin-top: 5px;
+}
+.Twin-card-title{
+    margin-top: 5px;
+}
+.African-card-title{
+    margin-top: -10px;
+}
+.Leather-card-title{
+    margin-top: 5px;
+}
+/* Bag Styling Ends */
+
+/* Items Card Style */
 .col .card{
     background-color: #fff;
     margin-top: 50px;
-    width: 100%;
+    width: 90%;
     border: 5px solid #707ecc;
-
+    height: 350px;
 }
+/* Items Card Style */
 
+
+/* Button Style Starts */
 .button{
     color: #fff;
     text-decoration: none;
     margin-left: 10px;
 }
-
 .button:hover{
     color: #fff;
     font-size: 20px;
 }
+/* Button Style Ends */
 
-.card-title{
-    margin-top: 20px;
+
+/* Details Button Style Starts */
+button{
+    background-color: rgb(219, 207, 140);
+    border: 2px solid #707ecc;
+    color: #000;
+
 }
+/* Details Button Style Ends */
 
-.price{
-    /* margin-top: 5px; */
+/* .price{
+    margin-top: 5px; 
     color: red;
-}
+} */
 
+/* Discount Information Styling */
 .information{
-    margin-top: 50px;
+    background-image: url("happy\ shopping.jpg");
+    margin-top: 300px;
     width: 100%;
     height: 500px;
 }
-
-.information img{
-    height: 500px;
-    width: 100%;
-}
-
 .information h2{
     margin-top: -250px;
     color: #000;
     font-weight: 200;
+    padding-top: 50px;
 }
-
 .information h3{
     text-align: center;
     font-size: 35px;
     color: #000;
+    padding-top: 50px;
 }
-
 .information .celebrate{
     height: 60px;
     width: 10%;
 }
-
 .information .celebration{
     height: 60px;
     width: 10%;
-    margin-top: -500px;
+    margin-top: -10px;
     margin-left: 600px;
 }
-
 h3 em{
     font-size: 50px;
     color: red;
 }
+/* Discount Information Ends */
 
+
+/* Footer Styling */
 .footer{
     width: 100%;
     height: 300px;
     background-color: rgb(219, 207, 140); 
     margin-top: 50px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
-
 .social{
     height: 20px;
     width: 2%;
 }
-
 .footer .name{
     background-color: #707ecc;
     width: 20%;
@@ -154,22 +387,22 @@ h3 em{
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
-    
     /* margin-top: 10px; */
 }
-
 .accounts{
     
 }
 .name h4{
     font-size: 25px;
 }
+/* Footer Styling Ends */
 
+
+/* Mobile View Styling */
 @media(max-width: 768px){
    .container-fluid h2{
         font-size: 17px;
     }
-
     .navbar img{
         height: 40px;
         width: 60px;
@@ -178,17 +411,14 @@ h3 em{
     #landingPage{
         height: 320px;
     }
-
     .carousel-inner{
         height: fit-content;
     }
-
     .card .ankara{
         margin-left: 20px;
         height: 200px;
         width: 220px;  
     }
-
     .col .card{
         width: 30px;
         height: 180px;
