@@ -8,6 +8,11 @@ body{
     height: 600px;
     background-color: #707ecc;
 }
+.container-fluid{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .container-fluid h2{
     text-align: center;
     font-size: 40px;
@@ -49,12 +54,14 @@ body{
 }
 /* Carousel Styling Ends */
 
-
+.product h3{
+    margin-top: 50px;
+    color: #000;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
 /* African Print Fabrics Styling */
-/* .container .card{
-    width: 90%;
-    margin: auto;
-} */
 .ankara2{
     height: 240px;
     width: 220px;
@@ -213,6 +220,10 @@ body{
 }
 /* Lace Styling Ends */
 
+.container{
+    width: 100%;
+    margin: auto;
+}
 
 /* Bag Styling Starts */
 .bagdetail1{
@@ -299,8 +310,8 @@ body{
     background-color: #fff;
     margin-top: 50px;
     width: 90%;
-    border: 5px solid #707ecc;
     height: 350px;
+    box-shadow: 4px 4px 10px rgb(138, 137, 137);
 }
 /* Items Card Style */
 
@@ -330,32 +341,28 @@ button{
 
 /* Discount Information Styling */
 .information{
-    background-image: url("happy\ shopping.jpg");
+    /* background-image: url("happy\ shopping.jpg"); */
     margin-top: 300px;
     width: 100%;
     height: 500px;
 }
 .information h2{
-    margin-top: -250px;
+    margin-top: -450px;
     color: #000;
     font-weight: 200;
     padding-top: 50px;
+}
+.happyshopping{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: -200px;
 }
 .information h3{
     text-align: center;
     font-size: 35px;
     color: #000;
     padding-top: 50px;
-}
-.information .celebrate{
-    height: 60px;
-    width: 10%;
-}
-.information .celebration{
-    height: 60px;
-    width: 10%;
-    margin-top: -10px;
-    margin-left: 600px;
 }
 h3 em{
     font-size: 50px;
@@ -373,6 +380,7 @@ h3 em{
     padding: 0px;
     margin-left: 0px;
     margin-right: 0px;
+    padding: 0;
 }
 .footerinfo{
     justify-content: space-around;
@@ -485,9 +493,9 @@ h3 em{
         height: fit-content;
     }
     .container .col .card{
-        margin-top: 50px;
-        width: 90%;
-        border: 3px solid #707ecc;
+        margin-top: 80px;
+        width: 80%;
+        margin: auto;
         height: 300px;
     }
     .card .ankara{
@@ -498,6 +506,9 @@ h3 em{
 
    
     /* Product Styles */
+    .product h3{
+        font-size: 25px;
+    }
     .container{
         display: flex;
         flex-direction: column;
@@ -524,7 +535,7 @@ h3 em{
         height: 180px;
         width: 160px;
         padding: 5px;
-        margin-left: 12px
+        margin-left: 12px;
     }
     .Dumas-card-title{
         margin-top: -8px;
@@ -561,7 +572,6 @@ h3 em{
         width: 180px;
         padding: 5px;
         margin-left: 30px;
-        margin-top: 10px;
     }
     .Voile-card-title{
         margin-top: -3px;
@@ -615,19 +625,13 @@ h3 em{
         height: 400px;
         background-size: cover
     }
-    .information .celebration{
-        height: 40px;
-        width: 7%;
-        margin-top: 10px;
-        margin-left: 250px;
-    }
-    .information .celebrate{
-        height: 40px;
-        width: 7%;
+    .happyshopping{
+        width: 100%;
+        height: 350px;
     }
     .information h2{
-        margin-top: -250px;
-        font-size: 20px;
+        margin-top: -350px;
+        font-size: 15px;
         font-weight: 200;
         padding-top: 140px;
     }
@@ -648,6 +652,8 @@ h3 em{
      .footer{
         width: 100%;
         height: 300px;
+        margin-top: -200px;
+        padding: 0;
      }
      .footer h4{
         font-size: 18px;
