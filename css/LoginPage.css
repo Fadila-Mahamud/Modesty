@@ -1,8 +1,26 @@
+/* Navbar */
+.navbar{
+    background-color: #707ecc;
+    width: 100%;
+    height: 60px;
+}
+.navbar img{
+    width: 80px;
+    height: 50px;
+    margin-top: 0px;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* Navbar ends */
+
 .loginForm{
     width: 60% !important;
     height: 400px;
     background-color: #707ecc;
-    margin-top: 100px;
+    margin-top: 70px;
     border: 5px solid rgb(219, 207, 140);
     border-radius: 20px;
     text-align: center;
@@ -16,19 +34,6 @@
     font-weight: 300;
     margin-top: 45px;
 }
-
-.loginForm{
-    justify-content: center;
-    align-items: center;   
-    width: 30%;
-    margin-left: 200px;
-}
-
-.loginRequirements{
-    justify-content: center;
-    align-items: center;
-}
-
 input{
     width: 400px;
     box-shadow: #fff;   
@@ -43,20 +48,11 @@ input{
 #password{
     margin-bottom: 20px;
 }
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-}
-
 form{
     background-color: #707ecc;
     border-radius: 30px;
    
 }
-
 .loginForm button{
     color: #000;
     text-decoration: none;
@@ -64,23 +60,19 @@ form{
     color: #fff;
     margin-left: 350px;
 }
-
 .forgot{
     text-decoration: none;
     color: white;
 }
-
 p{
     color: #000;
     padding-top: 10px;
 }
-
 .signup{
     color: #000;
     text-decoration: none;
     margin-top: 5px;
 }
-
 .login{
     margin-top: 20px;
     justify-content: center;
@@ -106,6 +98,78 @@ p{
     color: #fff;
     font-size: 15px;
 }
+
+/* Footer Styling */
+.footers{
+    width: 100%;
+    height: 170px;
+    background-color: #707ecc; 
+    margin-top: 40px;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+}
+.name h4{
+    text-align: center;
+    color: #fff;
+} 
+.footersinfo{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.footers a{
+    color: #2e2c2c;
+}
+.footers h5{
+    color: #fff;
+}
+.footers p{
+    color: #fff;
+}
+
+/* Social media icons */
+.whatsap{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.insta{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.tiktok{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.twitter{
+    height: 20px;
+    width: 20px;
+}
+/* Social media icons */
+.footer h4{
+    background-color: #707ecc;
+    color: #fff;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+.accounts{
+   float: right; 
+   margin-right: 120px;
+   margin-top: -90px;
+}
+.name h4{
+    font-size: 20px;
+}
+/* Footer Styling Ends */
+
 
 @media(max-width: 768px){
     .login h3{
@@ -197,4 +261,74 @@ p{
         color: #fff;
         font-size: 12px;
     }
+
+    
+    /* Footer */
+    .footers{
+        width: 100%;
+        height: 300px;
+        margin-top: 100px;
+        padding: 0;
+        margin-bottom: 0px;
+     }
+     .footers h4{
+        font-size: 18px;
+        margin-top: 10px;
+        padding-bottom: 5px;
+        text-align: center;
+        color: #fff;
+     }
+     .footersinfo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: block;
+        text-align: center;
+    }
+    .footersinfo h5{
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+    .footersinfo .number{
+        margin-left: 140px;
+    }
+    .footersinfo p{
+        font-size: 11px;
+        margin-left: 100px;
+    }
+    .footersinfo a{
+        font-size: 11px;
+    }
+     .footersinfo .location{
+        margin-top: 30px;
+     }
+     .footersinfo .contact{
+        margin-top: 20px;
+     }
+    .footersinfo .socialmedia{
+        margin-top: 30px;
+    }
+    .accounts{
+        margin-top: 10px;
+    }
+    .whatsap{
+        height: 15px;
+        width: 15px;
+    }
+    .insta{
+        height: 15px;
+        width: 15px;
+    }
+    .tiktok{
+        height: 15px;
+        width: 15px;
+    }
+    .twitter{
+        height: 15px;
+        width: 15px;
+    }
+    .accounts{
+        margin-right: 125px;
+     }
+     /* Footer */
 }
