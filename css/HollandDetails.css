@@ -62,6 +62,7 @@ p{
     .container{
         width: 60%;
         height: 400px;
+        margin-top: 120px;
     }
     .fabric3{
         height: 220px;
