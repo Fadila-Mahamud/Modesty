@@ -16,7 +16,7 @@
 }
 /* Navbar ends */
 
-.container-fluid{
+.container{
     width: 60%;
     height: 500px;
     background-color: #fff;
@@ -60,7 +60,7 @@ p{
 
 /* Mobile view style */
 @media(max-width: 768px){
-    .container-fluid{
+    .container{
         width: 60%;
         height: 400px;
     }
