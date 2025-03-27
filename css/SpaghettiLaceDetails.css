@@ -1,9 +1,27 @@
-.container-fluid{
+/* Navbar */
+.navbar{
+    background-color: #707ecc;
+    width: 100%;
+    height: 60px;
+}
+.navbar img{
+    width: 80px;
+    height: 50px;
+    margin-top: 0px;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 10px;
+}
+/* Navbar ends */
+
+.container{
     width: 60%;
     height: 500px;
     background-color: #fff;
-    border: 3px solid #707ecc;
-    margin-top: 70px;
+    margin-top: 30px;
+    box-shadow: 4px 4px 10px rgb(138, 137, 137);
 }
 .lacefabric3{
     height: 320px;
@@ -42,7 +60,7 @@ p{
 
 /* Mobile view style */
 @media(max-width: 768px){
-    .container-fluid{
+    .container{
         width: 55%;
         height: 420px;
     }
